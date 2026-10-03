@@ -26,7 +26,7 @@ jobs:
           echo "$ANDROID_HOME/platform-tools" >> $GITHUB_PATH
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - run: npm ci --no-audit --no-fund
       - run: npx cap sync android
       - name: Build debug APK
