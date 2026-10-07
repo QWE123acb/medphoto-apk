@@ -1,5 +1,5 @@
 /* 术影档案 Service Worker：应用外壳离线缓存 */
-const CACHE = 'medphoto-shell-v1'
+const CACHE = 'medphoto-shell-v2'
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png']
 
 self.addEventListener('install', (e) => {
